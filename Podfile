@@ -6,5 +6,7 @@ target 'WeChatApiManager' do
   # use_frameworks!
 pod 'WechatOpenSDK'
   # Pods for WeChatApiManager
-
+  # 发布
+  # pod lib lint --verbose --allow-warnings --use-libraries
+  # pod trunk push WeChatApiManager.podspec --verbose --allow-warnings --use-libraries
 end

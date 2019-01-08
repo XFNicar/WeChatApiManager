@@ -34,7 +34,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface WeChatApiManager : NSObject
+@interface WeChatApiManager : NSObject <WXApiDelegate>
 
 @property (nonatomic, weak) id<WXApiManagerDelegate> delegate;
 
